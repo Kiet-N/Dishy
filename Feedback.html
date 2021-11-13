@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="Feedback.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700;900&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/01661f50354ecd0a3560ac450ecf43d3?family=Bell+MT" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="about">
+  <div class="header">
+    <div class="logo"> <img src="images/3.1.png" alt="logo" width="148"></div>
+    <div class="menu">
+      <div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:#DDC6B6">&times;</a>
+        <div class="menutop">
+          <div class="menubuttontop"> <a href="profile.html"><img src="images/Icon/profile.png" alt="Profile" width="48px"></a> </div>
+          <div class="menubuttontop"> <a href="cart.html"><img src="images/Icon/cart.png" alt="cart" width="48px"></a> </div>
+        </div>
+        <div class="overlay-content"> <a href="home.html">MÓN ĂN</a> <a href="home.html">THỨC UỐNG</a> <a href="home.html">XU HƯỚNG</a> <a href="page.css">ĐỊA ĐIỂM</a> <a href="home.html">ĐẦU BẾP</a> </div>
+        <div class="overlay-content2"> <a href="#">Trang chủ</a> <a href="about.html">Giới thiệu</a> <a href="shop.html">Cửa hàng</a> <a href="Blog.html">Blog</a> <a href="Feedback.html">Liên hệ</a> <a href="#">+84936069946</a> </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer;color:#DDC6B6" onclick="openNav()">&#9776;</span> </div>
+  </div>
+<div class="contact">
+	  <div class="title">LIÊN HỆ
+	  </div>
+	<div class="info">
+		Rm. 306, 123 Le Loi, Dist.1
+	<br>Ho Chi Minh City,
+	Viet Nam
+		<br>+84894919825
+		<br>
+Contact@Dishy.com
+		<a href="#feedb"><div class="button">FEEDBACK</div></a>
+	</div>
+	
+	</div>
+  <div class="feedback" id="feedb">
+	<div class="subheading">Feedback</div>
+	<div class="fbinput">
+	  <div class="fbinfo">
+		
+		<input type="text" name="fullname" placeholder="Họ tên">
+		
+		<input type="text" name="email" placeholder="Email">
+		
+		<input type="text" name="phone" placeholder="Số điện thoại">
+		  <select name="cars" id="cars">
+    <option value="feedback options">Vấn đề feedback</option>
+    <option value="website">Feedback về website</option>
+    <option value="product">Feedback về sản phẩm</option>
+    <option value="others">Khác</option>
+  </select>
+ 	</div>
+	<div class="fbclear">
+		<textarea type="text" name="fb" placeholder="Ý kiến đóng góp"></textarea>
+		</div>
+	</div>
+	  <div class="button2">GỬI</div>
+	  <button onclick="topFunction()" id="myBtn" title="Lên đầu trang"><i class="arrow up"></i></button>
+	  </div>
+    
+
+
+
+  </div>
+
+	
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>

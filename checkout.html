@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="checkout.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;900&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/01661f50354ecd0a3560ac450ecf43d3?family=Bell+MT" rel="stylesheet" type="text/css"/>
+	<link href=footer.css rel="stylesheet">
+</head>
+
+<body>
+<div class="about">
+  <div class="header">
+    <div class="logo"> <img src="images/3.1.png" alt="logo" width="148"></div>
+    <div class="menu">
+      <div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:#DDC6B6">&times;</a>
+        <div class="menutop">
+          <div class="menubuttontop"> <a href="profile.html"><img src="images/Icon/profile.png" alt="Profile" width="48px"></a> </div>
+          <div class="menubuttontop"> <a href="cart.html"><img src="images/Icon/cart.png" alt="cart" width="48px"></a> </div>
+        </div>
+        <div class="overlay-content"> <a href="home.html">MÓN ĂN</a> <a href="home.html">THỨC UỐNG</a> <a href="home.html">XU HƯỚNG</a> <a href="page.css">ĐỊA ĐIỂM</a> <a href="home.html">ĐẦU BẾP</a> </div>
+        <div class="overlay-content2"> <a href="#">Trang chủ</a> <a href="about.html">Giới thiệu</a> <a href="shop.html">Cửa hàng</a> <a href="Blog.html">Blog</a> <a href="Feedback.html">Liên hệ</a> <a href="#">+84936069946</a> </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer;color:#DDC6B6" onclick="openNav()">&#9776;</span> </div>
+  </div>
+
+	  <div class="title"><p style="font-size: 72px;">CHECKOUT</p>
+	  </div>
+    <div class="info">
+		<span>Thông tin giao hàng</span>
+    <div class="infoinner">
+		<form>
+			<input type="text" name="fullname" placeholder="Họ tên" style='width:59%'>	
+			<input type="number" name="phone" placeholder="Số điện thoại" style='width:39%;float: right' min="1">
+		</form>
+		<form>
+		<input type="text" name="address1" placeholder="Tỉnh, Thành phố, Quận/Huyện, Phường" style='width:100%'>
+		</form>
+		<form>
+			<input type="text" name="address2" placeholder="Địa chỉ cụ thể" style='width:100%'>
+		</form>
+		<form>
+		<textarea type="text" name="note" placeholder="Ghi chú" style='width:100%' rows="6"></textarea>
+		</form>
+</div>
+		<div class="price"><p>Tạm tính: 285.000 VND<br>Phí vận chuyển: 20.000 VND</p>
+		<select name="method" id="payment">
+    <option value="options">Phương thức thanh toán</option>
+    <option value="local">Thẻ ghi nợ nội địa</option>
+    <option value="credit">Thẻ tín dụng</option>
+    <option value="e-wallet">Ví điện tử</option>
+    <option value="cod">Tiền mặt khi nhận hàng</option>
+  </select>
+			<p>Thành tiền:</p>
+		<span>305.000 VND</span>
+			<a href=thank.html><div class="button">Đặt hàng</div></a>
+		</div>
+		
+</div>	
+
+
+</div>
+	<footer>
+		<div class="nav">
+		<div class="navinner">
+				<ul>
+					<li><img src="images/3.png" width="120px"></li><br><br>
+					<li>Rm. 306, 123 Le Loi, Dist.1, </li>
+					<li>Ho Chi Minh City, Viet Nam</li>
+					<li>+84894919825</li>
+					<li>Contact@Dishy.com</li>
+				</ul>
+		</div>
+		<div class="navinner">
+				<ul>
+					<li><p>Điều hướng</p></li>
+					<li><a href=home.html> Trang chủ</a></li>
+					<li><a href="about.html"> Giới thiệu</a></li>
+					<li><a href=shop.html> Cửa hàng</a></li>
+					<li><a href=Blog.html> Blog</a></li>
+					<li><a href=Feedback.html> Liên hệ</a></li>
+				</ul>
+		</div>
+			<div class="navinner">
+				<ul>
+					<li><p>Nội dung</p></li>
+					<li><a href="home.html">Món ăn</a></li>
+					<li><a href="home.html">Thức uống</a></li>
+					<li><a href="home.html">Xu hướng</a></li>
+					<li><a href="home.html">Địa điểm</a></li>
+					<li><a href="home.html">Đầu bếp</a></li>
+				</ul>
+		</div>			
+			<div class="navinner">
+				<ul>
+					<li><p>Đăng kí</p></li>
+					<li>Đăng kí để nhận thông tin mới nhất từ Dishy</li>
+					<li><input type="email" id="email" name="email">
+  <input type="button" value="Đăng kí"></li>
+				</ul>
+		</div>
+		</div>
+		
+	</footer>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+
+
+</body>
+</html>

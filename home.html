@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="home.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;900&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/01661f50354ecd0a3560ac450ecf43d3?family=Bell+MT" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="about">
+  <div class="header">
+    <div class="logo"> <img src="images/3.1.png" alt="logo" width="148"></div>
+    <div class="menu">
+      <div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:#DDC6B6">&times;</a>
+        <div class="menutop">
+          <div class="menubuttontop"> <a href="profile.html"><img src="images/Icon/profile.png" alt="Profile" width="48px"></a> </div>
+          <div class="menubuttontop"> <a href="cart.html"><img src="images/Icon/cart.png" alt="cart" width="48px"></a> </div>
+        </div>
+        <div class="overlay-content"> <a href="home.html">MÓN ĂN</a> <a href="home.html">THỨC UỐNG</a> <a href="home.html">XU HƯỚNG</a> <a href="page.css">ĐỊA ĐIỂM</a> <a href="home.html">ĐẦU BẾP</a> </div>
+        <div class="overlay-content2"> <a href="#">Trang chủ</a> <a href="about.html">Giới thiệu</a> <a href="shop.html">Cửa hàng</a> <a href="Blog.html">Blog</a> <a href="Feedback.html">Liên hệ</a> <a href="#">+84936069946</a> </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer;color:#DDC6B6" onclick="openNav()">&#9776;</span> </div>
+  </div>
+  <div class="content"> 
+    <div class="slideshow-container">
+<div class="mySlides fade">
+  
+  <img src="images/food.png" style="width:100%">
+	<div class="text"><a href="food.html">
+	  <p style="font-size: 96px">Món ăn</p>
+	  <p style="font-size: 24px; font-family:'Be Vietnam Pro SemiBold'" >Những món ăn trong các bữa ăn fine dining<br>không như các món ăn bình thường khác<br>mà hướng tới sự cao cấp, tinh tế<br>được chế biến từ các nguyên liệu có chất lượng tốt.</p></a>
+
+</div>
+</div>
+		<div class="mySlides fade">
+  
+  <img src="images/drinks.png" style="width:100%">
+	<div class="text" >
+	  <p style="font-size: 96px">Thức uống</p>
+	  <p style="font-size: 24px; font-family:'Be Vietnam Pro SemiBold'" >Trong một bữa ăn fine dining,<br>thức uống là thứ không thứ thể thiếu<br>để nâng cao trải nghiệm của thực khách,<br>làm nổi lên hương vị của các món ăn.</p>
+
+</div>
+</div>
+<div class="mySlides fade">
+
+  <img src="images/trends.png" style="width:100%">
+  <div class="text">
+	  <p style="font-size: 96px">Xu hướng</p>
+	<p style="font-size: 24px; font-family:'Be Vietnam Pro SemiBold'">Nắm bắt được các xu hướng và làm mới thực đơn<br>là điều rất cần thiết của mỗi nhà hàng<br>vừa giúp tạo một thực đơn đa dạng hơn,<br>vừa tạo được nhiều sự quan tâm dành cho nhà hàng</p>
+	  
+	</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/place.png" style="width:100%">
+  <div class="text"><p style="font-size: 96px">Địa điểm</p>
+	<p style="font-size: 24px; font-family:'Be Vietnam Pro SemiBold'" >Các trải nghiệm của một bữa ăn fine dining<br>sẽ được diễn ra trong các nhà hàng cao cấp<br>với không gian tinh tế và các view đẹp.</p>
+
+	</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/chefs.png" style="width:100%">
+	<div class="text"><p style="font-size: 96px">Đầu bếp</p>
+	<p style="font-size: 24px; font-family:'Be Vietnam Pro SemiBold'">Những món ăn của fine dining là những món<br>được chế biến đạt tới mức đỉnh cao<br>do những người đầu bếp giỏi, cẩn thận<br>và chu đáo tới từng chi tiết nhỏ của món ăn.</p>
+
+	</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)" style="color: black">&#10094;</a>
+<a class="next" onclick="plusSlides(1)" style="color: black">&#10095;</a>
+<div class="dotdiv" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+
+
+
+  </div>
+</div>
+	
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.about
+{
+	width: 100vw;
+	height: 100vh;
+	background-color:#DDC6B6;
+	opacity: 100%;
+}
+.header
+{
+	width: 100vw;
+	height: 140px;
+	background-color: #262223;
+}
+.logo
+{
+	width: 20%;
+	height: 140px;
+	padding: 31px 31px 31px 46px;
+	float: left;
+}
+.menu
+{
+	width: 5.5%;
+	height: 140px;
+	float: right;
+	padding: 47px 56px 59px 0px;
+	box-sizing: border-box;
+	align-content:flex-end;
+}
+/* mega menu */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #262223;
+  overflow-x: hidden;
+  transition: 0.5s;
+	
+}
+
+.overlay-content {
+ position: absolute;
+   width: 35%;
+	top: 130px;
+	left: 362px;
+	float:left;	
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight:900;
+}
+.overlay-content2 
+{
+top:182px;
+  width: 40%;
+  text-align: left;
+  margin-top: 30px;
+	float: right; 
+font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 100;
+	font-size: 48px;
+	
+}
+
+.overlay-content a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 90px;
+  color: #262223;
+  display: block;
+  transition: 0.3s;
+  box-sizing: border-box;
+  -webkit-text-stroke: 1px white;
+
+
+}
+.overlay-content2 a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 48px;
+  color: #262223;
+  display: block;
+  transition: 0.3s;
+font-weight:200;
+  -webkit-text-stroke: 1px white;
+	box-sizing: border-box;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 30px;
+  right: 45px;
+  font-size: 60px;
+	
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+
+  }
+}
+.menutop
+{
+	padding-top: 50px;
+	padding-left: 260px;	
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	clear: both;
+}.menubuttontop
+{
+	
+	width: 50px;
+	height: 50px;
+	float: left;
+}
